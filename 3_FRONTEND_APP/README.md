@@ -96,7 +96,7 @@ $ amplify add auth
 
 The end result should look something like this:
 
-![Screenshot-3](../images/readme-3.png)
+![Screenshot-3](../images/readme-3a.png)
 
 Once complete, the Amplify client-side library is configured to point all Auth API requests to the Cognito Pool we've just created.
 
