@@ -23,6 +23,9 @@ We will use a CloudFormation template to create the above resources.
 
 Use the following link to create the stack. 
 
+[go](http://stackoverflow.com){:target="_blank"}
+
+
 Region| Launch
 ------|-----
 eu-west-1 (Ireland) | [![Launch](../images/cloudformation-launch-stack-button.png)](https://eu-west-1.console.aws.amazon.com/cloudformation/home?region=eu-west-1#/stacks/new?stackName=reinvent-calorietracker-module0&templateURL=https://s3.eu-west-1.amazonaws.com/aws-appsync-calorie-tracker-workshop-master/0_NEPTUNE/templates/main.yaml)
