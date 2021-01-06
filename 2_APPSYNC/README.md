@@ -33,9 +33,16 @@ Region| Launch
 ------|-----
 eu-west-1 (Ireland) | [![Launch](../images/cloudformation-launch-stack-button.png)](https://eu-west-1.console.aws.amazon.com/cloudformation/home?region=eu-west-1#/stacks/new?stackName=reinvent-calorie-tracker-module2&templateURL=https://s3.eu-west-1.amazonaws.com/aws-appsync-calorie-tracker-workshop-master/2_APPSYNC/templates/dynamodb-lambda.yaml)
 
+> Leave all Cloudformation inputs as defaults and click Next
+ 
+
 ![CFN](../images/image-appsync-cf-inputs.png)
 
-> Leave all Cloudformation inputs as defaults and click Next and Create the Stack
+Tick the 2 boxes in the capabiltity section and click **Create Stack**
+
+![CFN](../images/image-appsync-cfn.png)
+
+
 
 When the stack creation is completed successfully, you will have following 4 DynamoDB tables and a Lambda function created. 
 
@@ -121,7 +128,7 @@ Once you have created the datasources, you should see 4 Appsync Datasources in t
 ![AppSync data source](../images/image-completed-ds.png)
 
 ### Create AppSync Schema
-In this section we will create a GraphQL Schema. In the following first few steps, we will show how you can define the type, query and mutations from scratch. But, in the interest of time, we have the GrapphQL schema pre-created for you, which you will directly copy and paste in your schema editor.
+In this section we will create a GraphQL Schema. In the following first few steps, we will show how you can define the type, query and mutations from scratch. **But, in the interest of time, we have the GrapphQL schema pre-created for you, which you will directly copy and paste in your schema editor.**
 
 ##### Entity type - User
   - To store user information in the DynamoDB table, we need to define a type called **User**. It will be defined as below. 

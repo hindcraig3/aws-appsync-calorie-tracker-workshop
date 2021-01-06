@@ -75,7 +75,7 @@ To add Cognito authentication, run:
 $ amplify add auth
 ```
 
-- Do you want to use the default authentication and security configuration? `No, I will set up my own configuration`
+- Do you want to use the default authentication and security configuration? `Manual Configuration`
 - Select the authentication/authorization services that you want to use: `User Sign-Up & Sign-In only (Best used with a cloud API only)`
 - Please provide a friendly name for your resource: `default`
 - Please provide a name for your user pool: `default`
@@ -181,7 +181,7 @@ Using a public API key can be quite useful for various use-cases, but in our cas
 
 We will be leveraging the Cognito User Pool we've created earlier for autorization. 
 
-- Navigate to the AWS AppSync Console's `Settings` page and change the Authorization type to `Amazon Cognito User Pool`:
+- Navigate to the AWS AppSync Console's `Settings` page and change the Default Authorization Mode to `Amazon Cognito User Pool`:
 ![Screenshot-10](../images/image-amplify-4.png)
 
 - Select the relevant region and user pool at the newly revealed "User Pool configuration" section. Default action should be set to `ALLOW`:
