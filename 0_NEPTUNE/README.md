@@ -23,9 +23,6 @@ We will use a CloudFormation template to create the above resources.
 
 Use the following link to create the stack. 
 
-[go](http://stackoverflow.com){:target="_blank"}
-
-
 Region| Launch
 ------|-----
 eu-west-1 (Ireland) | [![Launch](../images/cloudformation-launch-stack-button.png)](https://eu-west-1.console.aws.amazon.com/cloudformation/home?region=eu-west-1#/stacks/new?stackName=reinvent-calorietracker-module0&templateURL=https://s3.eu-west-1.amazonaws.com/aws-appsync-calorie-tracker-workshop-master/0_NEPTUNE/templates/main.yaml)
@@ -39,13 +36,12 @@ eu-west-1 (Ireland) | [![Launch](../images/cloudformation-launch-stack-button.pn
 
     ![CFN](../images/image-cfn-inputs.png)
 
-3. Click next, twice. Under **Capabilities**, check both the boxes and click **Create Change Set** under Transform. Then click **Execute**
+3. Click next, twice. Under **Capabilities**, check the boxes and click **Create Stack** . 
 
     ![CFN](../images/image-cfn-capability.png)
 
-    ![CFN](../images/image-cfn-execute.png)
 
-    It will take 15-20 mintues to complete the stack.
+   **It will take 15-20 mintues to complete the stack.**
 
 4. Once the stack has been successfully deployed, the cloudformation **Output** section will provide the necessary information about the resources being created, as shown below:
 
