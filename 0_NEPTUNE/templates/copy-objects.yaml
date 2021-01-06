@@ -1,14 +1,14 @@
 AWSTemplateFormatVersion: 2010-09-09
 Description: >-
   This template creates a lambda function to copy the objects from source S3
-  bucket to the destination S3 bucket.
+  bucket to the destination S3 bucket. test
 Parameters:
   SourceBucketName:
     AllowedPattern: '^[0-9a-zA-Z]+([0-9a-zA-Z-]*[0-9a-zA-Z])*$'
     ConstraintDescription: >-
       Bucket name can include numbers, lowercase letters, uppercase
       letters, and hyphens (-). It cannot start or end with a hyphen (-).
-    Default: reinvent-calorie-tracker-workshop
+    Default: aws-appsync-calorie-tracker-workshop-master
     Description: >-
       S3 bucket name for the re:invent workshop assets. Bucket name can include
       numbers, lowercase letters, uppercase letters, and hyphens (-). It
