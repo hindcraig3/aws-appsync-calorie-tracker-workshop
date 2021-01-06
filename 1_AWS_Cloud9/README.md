@@ -33,7 +33,7 @@ In this section, we will create a AWS Cloud9 (C9) environment and configure it t
 	
     1. Go to EC2 console. Make sure you are in **Ireland** region. 
     2. Click **Instances** on the left navigation bar. 
-    3. Search for the keyword `aws-cloud9-reinvent-calorie-tracker-workshop-` and select the instance. Under **Actions** | **Instance Settings** | select **Attach or Replace IAM Role**.
+    3. Search for the keyword `aws-cloud9-reinvent-calorie-tracker-workshop-` and select the instance. Under **Actions** | **Security** | select **Modify IAM Role**.
 
 		![Cloud9 Env](../images/image-c9-ec2-instance.png)
 
@@ -63,12 +63,13 @@ In this section, we will create a AWS Cloud9 (C9) environment and configure it t
 
 11. Verify the NodeJS version via the Cloud9 terminal.
 
+	**NOTE: When using Cloud 9 your environment will likely have the latest version of node. Just verify it is greater than 8.**
 	```
 	$ node -v
 	v6.14.4
 	```
 
-	Update the node.js version, if you are running < 8
+	If you are running node less than 8 then update the node.js version the the latest version. e.g:
 	
 	```
 	$ nvm install 8
