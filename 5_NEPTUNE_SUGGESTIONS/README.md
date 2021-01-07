@@ -107,7 +107,7 @@ curl http://reinvent-calorie-tracker.cluster-5v2bkf.eu-west-1.neptune.amazonaws.
 **Step 2:** Next, copy and paste the following into your `EC2 terminal`
 
   ```
-cd apache-tinkerpop-gremlin-console-3.3.2
+cd apache-tinkerpop-gremlin-console-3.4.8
 bin/gremlin.sh
   ```
 

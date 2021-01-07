@@ -184,7 +184,7 @@ We will be leveraging the Cognito User Pool we've created earlier for autorizati
 - Navigate to the AWS AppSync Console's `Settings` page and change the Default Authorization Mode to `Amazon Cognito User Pool`:
 ![Screenshot-10](../images/image-amplify-4.png)
 
-- Select the relevant region and user pool at the newly revealed "User Pool configuration" section. Default action should be set to `ALLOW`:
+- Select the relevant region and user pool at the newly revealed "User Pool configuration" section. Default action should be set to `ALLOW`. Leave Appid client regex blank:
 
    ![Screenshot-12](../images/readme-12.png)
 
