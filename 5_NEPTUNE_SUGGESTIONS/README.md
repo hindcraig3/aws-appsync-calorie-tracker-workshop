@@ -107,7 +107,7 @@ curl http://reinvent-calorie-tracker.cluster-5v2bkf.eu-west-1.neptune.amazonaws.
 **Step 2:** Next, copy and paste the following into your `EC2 terminal`
 
   ```
-cd apache-tinkerpop-gremlin-console-3.3.2
+cd apache-tinkerpop-gremlin-console-3.4.8
 bin/gremlin.sh
   ```
 
@@ -263,7 +263,7 @@ Under AWS lambda, you will find a Lambda function named **suggest-food-for-user*
 
 ![New Resolver](../images/create-suggested-food-resolver.png)
 
-6. Enable both the `Request Mapping` and `Response Mapping` templates by toogling to the two (2) switches
+6. Enable both the `Request Mapping` and `Response Mapping` templates by toogling the two (2) switches
 7. Save the resolver.
 
 #### Step 3: Updating the graphql schema in your code:
