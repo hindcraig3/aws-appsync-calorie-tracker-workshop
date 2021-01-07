@@ -38,7 +38,7 @@ eu-west-1 (Ireland) | [![Launch](../images/cloudformation-launch-stack-button.pn
 
 3. Click next, twice. Under **Capabilities**, check the boxes and click **Create Stack** . 
 
-    ![CFN](../images/image-cfn-capability.png)
+    ![CFN](../images/image-cfn-capability-2.png)
 
 
    **It will take 15-20 mintues to complete the stack.**
